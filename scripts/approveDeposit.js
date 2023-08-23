@@ -3,7 +3,7 @@ const fxRootContractABI = require("../artifacts/contracts/MyNFTCollection.sol/Fx
 const tokenContractJSON = require("../artifacts/contracts/MyNFTCollection.sol/MyNFTCollection.json"); // Update the path accordingly
 require("dotenv").config();
 
-const tokenAddress = "0xD287B7f2EC64125db87F6F939AE1eCCDbbA74e9F"; // Update with the actual ERC721A contract address
+const tokenAddress = "0x19808DBaFe78DD6Baa90Ab4A68AFB85BD48C2Eca"; // Update with the actual ERC721A contract address
 const tokenABI = tokenContractJSON.abi;
 const fxERC20RootAddress = "0xF9bc4a80464E48369303196645e876c8C7D972de"; // Update with the actual FXRoot contract address
 
