@@ -8,7 +8,7 @@ async function main() {
   const provider = new ethers.providers.JsonRpcProvider(networkAddress);
   const signer = new ethers.Wallet(privateKey, provider);
   // The address of the deployed contract (update this with the actual contract address after deployment)
-  const contractAddress = "0xD287B7f2EC64125db87F6F939AE1eCCDbbA74e9F";
+  const contractAddress = "0x19808DBaFe78DD6Baa90Ab4A68AFB85BD48C2Eca";
 
   const MyNFTCollection = await ethers.getContractFactory("MyNFTCollection", signer);
   const contract = await MyNFTCollection.attach(contractAddress);
